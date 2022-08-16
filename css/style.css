@@ -18,7 +18,9 @@ body {
   font-family: "Inter-normal";
 }
 
-
+button{
+  border:none;
+}
 :root {
   --white: rgb(215, 210, 210);
   --middlegreen: rgb(60, 207, 145);
@@ -63,7 +65,7 @@ div.h2-container {
   display: inline-block;
 }
 h2.name {
-  font-size: 3.2em;
+  font-size: 2.8em;
   color: var(--lightgreen);
   font-family: "Inter-bold";
   font-weight: bolder;
@@ -131,6 +133,7 @@ button.button-main {
   color: var(--white);
   padding: 0.2em 1em 0.2em 0;
   margin-right: 0.5em;
+  margin-bottom: 1em;
   text-align: left;
   border-radius: 5px;
   font-weight: bolder;
@@ -144,7 +147,6 @@ button.button-main {
 button.button-main:hover {
   background-color: var(--darkgreen-light);
   color: black;
- 
 }
 
 /* --- SECTION ABOUT ME --- */
