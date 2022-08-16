@@ -16,17 +16,8 @@ html {
 }
 body {
   font-family: "Inter-normal";
-  /* font-size: calc(0.75em + 1vmin); */
 }
-h1 {
-  font-size: 5.9vw;
-}
-h2 {
-  font-size: 3vh;
-}
-p {
-  font-size: 2vmin;
-}
+
 
 :root {
   --white: rgb(215, 210, 210);
@@ -57,7 +48,6 @@ a.nav-link:hover{
 }
 a.logo {
   color: var(--darkyellow);
-  font-size: 1.5em;
   font-family: 'Roboto Mono', monospace;
   font-weight: bold;
 
@@ -102,16 +92,11 @@ h2.name {
 div.subtitle-container {
   text-align: left;
 }
-h1.title {
-  font-size: 1.5em;
-  font-weight: bolder;
-}
+
 h2.subtitle {
-  font-size: 1.9em;
 }
 h3.move {
   margin-top: 1.5em;
-  font-size: 1.65em;
 }
 span.highlight {
   color: var(--lightgreen);
@@ -217,7 +202,6 @@ div.card {
 }
 
 p.card-text {
-  font-size: 1.1em;
   color: var(--white);
 }
 a.link-site {
@@ -252,13 +236,21 @@ footer.end {
   color: white;
   text-align: center;
 }
-span.heart {
-  color: var(--darkgreen);
-  font-size: 0.9em;
-}
+
 div.small-txt {
   padding: 0.5em 0;
   font-size: 0.8em;
+}
+@media (min-width: 48em) {
+  :root {
+    font-size: calc(1rem + ((1vw - 0.48em) * 0.6944));
+    min-height: 0vw;
+  }
+}
+@media (min-width: 120em) {
+  :root {
+    font-size: 1.25em;
+  }
 }
 
 /* --- ANIMATIONS --- */
