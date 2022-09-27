@@ -196,6 +196,9 @@ i.fa-database {
 i.fa-bootstrap {
   color: purple;
 }
+i.fa-vuejs{
+  color: var(--middlegreen);
+}
 div.card {
   margin-bottom: 1em;
 }
